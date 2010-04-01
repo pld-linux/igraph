@@ -6,7 +6,7 @@ Summary:	Library for creating and manipulating graphs
 #Summary(pl.UTF-8):	-
 Name:		igraph
 Version:	0.5.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Libraries
 Source0:	http://cneurocvs.rmki.kfki.hu/igraph/download/%{name}-%{version}.tar.gz
