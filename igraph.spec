@@ -16,17 +16,17 @@ BuildRequires:	arpack-devel
 BuildRequires:	blas-devel
 BuildRequires:	gmp-devel
 BuildRequires:	lapack-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 igraph is a free software package for creating and manipulating
-undirected and directed graphs. It includes implementations for classic
-graph theory problems like minimum spanning trees and network flow, and
-also implements algorithms for some recent network analysis methods,
-like community structure search.
+undirected and directed graphs. It includes implementations for
+classic graph theory problems like minimum spanning trees and network
+flow, and also implements algorithms for some recent network analysis
+methods, like community structure search.
 
-# %description -l pl.UTF-8
-# TODO
+# %description -l pl.UTF-8 # TODO
 
 %package devel
 Summary:	Header files for the igraph library
